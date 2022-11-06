@@ -1,7 +1,7 @@
 import { EditorState, QueryMethods } from '@craftjs/core';
 import forIn from 'lodash/forIn';
 import pickBy from 'lodash/pickBy';
-import shortid from 'shortid';
+import {nanoid as shortid} from 'nanoid';
 
 import deleteNodes from './deleteNodes';
 import { getSplitOperations } from './getSplitOperations';

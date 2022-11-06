@@ -95,9 +95,6 @@
     "modulePaths": [
       "<rootDir>/packages/core/"
     ],
-    "testMatch": [
-      "<rootDir>/packages/**/?(*.)test.ts(x|)"
-    ],
     "transform": {
       ".+\\.(ts|tsx)$": "ts-jest"
     },
